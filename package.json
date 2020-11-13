@@ -1,0 +1,21 @@
+{
+  "name": "login-signup-system",
+  "version": "1.0.0",
+  "description": "Login / Sign up system using Express",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon ./src/main.js",
+    "start": "node ./src/main.js"
+  },
+  "author": "Jigar Punjani <jigarpunjani@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "mongoose": "^5.10.13",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
